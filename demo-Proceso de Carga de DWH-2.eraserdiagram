@@ -1,0 +1,27 @@
+flowchart-diagram
+
+title Proceso de Carga de DWH
+
+// Define nodes and relationships "A > B"
+// Set shape and icon properties in "[]"
+// Add labels to relationships after ":"
+
+// Start points
+Inicio Carga ERP SAGE [shape: oval, icon: database] > Descargar Datos ERP [icon: download]
+Inicio Carga Excels [shape: oval, icon: file-text] > Descargar Datos Excels [icon: download]
+Inicio Carga CSV S3 [shape: oval, icon: cloud] > Descargar Datos CSV [icon: download]
+
+// Staging area
+Descargar Datos ERP > Área de Staging [icon: inbox]
+Descargar Datos Excels > Área de Staging
+Descargar Datos CSV > Área de Staging
+
+// Load into Data Warehouse
+Área de Staging > Validar Datos [shape: diamond, icon: check-square]
+Validar Datos > Cargar en DWH [icon: upload]: Datos válidos
+Validar Datos > Corregir Errores [icon: x-square]: Datos inválidos
+
+// End point
+Cargar en DWH > Fin del Proceso [shape: oval, icon: check-circle]
+Validar Datos < Corregir Errores
+
