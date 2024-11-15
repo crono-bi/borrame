@@ -1,0 +1,33 @@
+cloud-architecture-diagram
+
+direction right
+
+Static content {
+  Content Delivery Network [icon: azure-cdn-profiles]
+  Azure Blob Storage [icon: azure-blob-block]
+}
+
+API {
+  API Management [icon: azure-api-management-services]
+  Function Apps [icon: azure-function-apps]
+  Azure Cosmos DB [icon: azure-cosmos-db]
+}
+
+CICD [label: "CI/CD"] {
+  Azure Pipelines [icon: azure-resource-linked]
+  GitHub Actions [icon: github-actions]
+  Azure Monitor [icon: azure-monitor]
+}
+
+Single-page web application [icon: azure-browser]
+User [icon: azure-users]
+Azure Active Directory [icon: azure-active-directory]
+
+Single-page web application > Content Delivery Network:HTTP GET
+Single-page web application > API Management:HTTP GET (AJAX request)
+API Management > Function Apps > Azure Cosmos DB
+Function Apps > Azure Active Directory
+Azure Blob Storage > Content Delivery Network
+User > Azure Active Directory:Sign-in
+API Management > Azure Active Directory:Authentication
+
