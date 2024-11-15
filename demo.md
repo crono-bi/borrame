@@ -6,16 +6,26 @@ Esto es un documento **markdown**
 - Uno
 - Dos
 - Tres
+- Cuatro
 
 
-![Figure 1](/.eraser/0gMNxKMvU3M8kHpRvA6M___IwSug9F0vxd5dZu9WBSogsaQ2f82___---figure---ZrYc-wOMaRdu5Foqb6Exj---figure---WyXgXxnLanrHU7aaHudyxQ.png "Figure 1")
-
-
-
-
+[﻿View on canvas](https://app.eraser.io/workspace/0gMNxKMvU3M8kHpRvA6M?elements=3fSZutc97DPTD-kk6VbHKQ) 
 
 
 
+![Figure 1](/.eraser/0gMNxKMvU3M8kHpRvA6M___IwSug9F0vxd5dZu9WBSogsaQ2f82___---figure----ISV1rnoUzDLamANEIHBB---figure---WyXgXxnLanrHU7aaHudyxQ.png "Figure 1")
 
 
+
+
+
+
+
+
+<!-- eraser-additional-content -->
+## Diagrams
+<!-- eraser-additional-files -->
+<a href="/demo-flowchart-1.eraserdiagram" data-element-id="aYSakJTMJ7gPJK9cDfJ_8"><img src="/.eraser/0gMNxKMvU3M8kHpRvA6M___IwSug9F0vxd5dZu9WBSogsaQ2f82___---diagram----3643d2cdfa15da5df1b06da505cfcfef.png" alt="" data-element-id="aYSakJTMJ7gPJK9cDfJ_8" /></a>
+<!-- end-eraser-additional-files -->
+<!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/0gMNxKMvU3M8kHpRvA6M --->
