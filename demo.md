@@ -7,17 +7,34 @@ Esto es un documento **markdown**
 - Dos
 - Tres
 - Cuatro
+- Cinvo
+asdasd
+
+asdds
+
+
+
+_fasdsdfasdf_
+
+**asdffasdf**
+
+
+
+
+
 
 
 [﻿View on canvas](https://app.eraser.io/workspace/0gMNxKMvU3M8kHpRvA6M?elements=3fSZutc97DPTD-kk6VbHKQ) 
 
 
 
-![Figure 1](/.eraser/0gMNxKMvU3M8kHpRvA6M___IwSug9F0vxd5dZu9WBSogsaQ2f82___---figure----ISV1rnoUzDLamANEIHBB---figure---WyXgXxnLanrHU7aaHudyxQ.png "Figure 1")
+![Figure 1](/.eraser/0gMNxKMvU3M8kHpRvA6M___IwSug9F0vxd5dZu9WBSogsaQ2f82___---figure---1nhx9CBYP4kRd_x8j36tH---figure---WyXgXxnLanrHU7aaHudyxQ.png "Figure 1")
 
 
 
+Y este es el diagrama de componertes:
 
+![DiagramaPau](/.eraser/0gMNxKMvU3M8kHpRvA6M___IwSug9F0vxd5dZu9WBSogsaQ2f82___---figure---kVTnnfZjrWElI-BQnXvnG---figure---zEArRXE6-flinijP0kjdFg.png "DiagramaPau")
 
 
 
